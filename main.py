@@ -23,17 +23,6 @@ from itertools import combinations
 from tqdm import tqdm
 from graphframes import GraphFrame
 
-
-# In[2]:
-
-
-get_ipython().system('which python')
-get_ipython().system('pip list')
-
-
-# In[3]:
-
-
 class Dataset:
     def __init__(self, spark_session, limit = None):
         self.spark_session = spark_session
@@ -118,7 +107,6 @@ spark_session = SparkSession.builder \
     .getOrCreate()
 
 
-# In[5]:
 
 
 # Set checkpoint directory once
