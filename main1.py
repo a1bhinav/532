@@ -1,23 +1,23 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# import os
-# from pyspark.ml.feature import HashingTF, IDF
-# from pyspark.sql import SparkSession
-# from pyspark.sql.functions import explode, split, collect_list, concat_ws, lit,trim, col,udf
-# from pyspark.sql.types import StructType, StructField, IntegerType, ArrayType, DoubleType
-# from pyspark.ml.linalg import SparseVector, VectorUDT, DenseVector
-# from pyspark.sql import functions as F
-# from pyspark.sql.window import Window
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from pyspark.sql.types import StringType
-# import numpy as np
-# import json
-# from sklearn.metrics.pairwise import cosine_similarity
-# import pandas as pd
-# from itertools import combinations
-# from tqdm import tqdm
-# from graphframes import GraphFrame
+import os
+from pyspark.ml.feature import HashingTF, IDF
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import explode, split, collect_list, concat_ws, lit,trim, col,udf
+from pyspark.sql.types import StructType, StructField, IntegerType, ArrayType, DoubleType
+from pyspark.ml.linalg import SparseVector, VectorUDT, DenseVector
+from pyspark.sql import functions as F
+from pyspark.sql.window import Window
+from sklearn.feature_extraction.text import TfidfVectorizer
+from pyspark.sql.types import StringType
+import numpy as np
+import json
+from sklearn.metrics.pairwise import cosine_similarity
+import pandas as pd
+from itertools import combinations
+from tqdm import tqdm
+from graphframes import GraphFrame
 
 # In[2]:
 
